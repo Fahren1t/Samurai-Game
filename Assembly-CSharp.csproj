@@ -62,14 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
-    <Compile Include="Assets\atackArea.cs" />
+    <Compile Include="Assets\Scripts\Attacks\EnemiekShoot.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
+    <Compile Include="Assets\Scripts\Attacks\atackArea.cs" />
+    <Compile Include="Assets\Scripts\Attacks\EnemieProjectile.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
-    <Compile Include="Assets\Behaviour1.cs" />
-    <Compile Include="Assets\squareMan.cs" />
-    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\Scripts\Attacks\IDamageable.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
-    <Compile Include="Assets\playerAtack.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\IDeflectable.cs" />
+    <Compile Include="Assets\Scripts\playerAtack.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hero Knight - Pixel Art\ColorSwap\Sprites-ColorSwap.shader" />

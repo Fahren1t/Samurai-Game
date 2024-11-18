@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+public class Health : MonoBehaviour, IDamageable
 {
-  [SerializeField] private int health = 1;
-
+    [SerializeField] private int health = 1;
+    //[SerializeField] private ParticleSystem damageParticles;
     public void Damage(int amount)
     {
-        if (health != 0) 
-        { 
+        if (health != 0)
+        {
             this.health -= amount;
+
+            //Instantiate(damageParticles, transform.position, Quaternion.identity);
         }
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
         }
