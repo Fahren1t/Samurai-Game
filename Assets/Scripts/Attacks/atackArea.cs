@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -10,7 +11,7 @@ public class atackArea : MonoBehaviour
 
     private bool canDeflect = false;  // Add this variable to track deflectable objects
     private GameObject currentDeflectableObject = null;  // To store the reference to deflectable object
-
+    public event Action<IDeflectable> OnDeflectableEntered; // Event to notify deflectable objects
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -20,34 +21,39 @@ public class atackArea : MonoBehaviour
             Health health = collider.GetComponent<Health>();
             health.Damage(damage);
         }
-
+        
+        // Check for IDeflectable interface
+        IDeflectable deflectable = collider.GetComponent<IDeflectable>();
+        if (deflectable != null)
+        {
+            Debug.Log("Deflectable object entered");
+            OnDeflectableEntered?.Invoke(deflectable); // Notify the playerAtack script
+        
+        }
+       /*
         // Check for IDeflectable interface
         IDeflectable deflectable = collider.GetComponent<IDeflectable>();
         if (deflectable != null)
         {
             canDeflect = true;
             currentDeflectableObject = collider.gameObject;
-        }
-    }
 
-    private void OnTriggerExit2D(Collider2D collider)
-    {
-        // Reset deflectable status when object exits the trigger
-        if (collider.gameObject == currentDeflectableObject)
-        {
+            Debug.Log(" object entered");
+
+            // Reset deflectable status when object exits the trigger
             canDeflect = false;
             currentDeflectableObject = null;
         }
-    }
-    // Getter method to check if there's a deflectable object
-    public bool CanDeflect()
-    {
-        return canDeflect;
-    }
+       */
 
+    }
     // Getter method to get the current deflectable object
+    public bool CanDeflect() => canDeflect;
+
     public IDeflectable GetDeflectableObject()
     {
-        return currentDeflectableObject.GetComponent<IDeflectable>();
-    }
+        return currentDeflectableObject != null
+            ? currentDeflectableObject.GetComponent<IDeflectable>() : null;
+    } 
+    
 }

@@ -3,8 +3,8 @@ using UnityEngine;
 public class Enemiekshoot : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D bulletPrefab;
-    [SerializeField] private float bulletSpeed = 15f;
     [SerializeField] private float timeBtwAttacks = 2f;
+    [SerializeField] public float bulletSpeed = 15f;
     private float shootTimer;
 
     private Rigidbody2D bulletRB;
