@@ -18,24 +18,27 @@ The player will be standin at the left side of the screen, and the enemies will 
 Provide the prompts in brackets that have helped you to improve or structure something here! Please find the sweet spot between your own work/testing and content generation in order to learn something yourself throughout the entire process!
 
 5. A) **DDD**: **(A)** Do an Event-Storming to find your Domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) **(B)**. Drop your Domains into a Core Domain Chart **(C)** and indicate the Relations = Mappings (! see MIRO examples again) between the Domains in a new diagram!
-   
-6. **METRICS:** at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
+
+   SOLUTION:   https://miro.com/welcomeonboard/eTNtYUpBTFdheXBydXFRd2lPbkxRUmIxM0NyM0NYUFFVUnRNVXhwYWpWMXM3emErMmM1OTFkU2Iva09GcTJDdmRkM1Q3YU5ocnFkbnZLL2tWWDE5SFRrVGR0SUxuaTIvdTdsdDJEemc4NWhuTDBEZUs5OWpIMVR1MlhXOVJnWGEhZQ==?share_link_id=880248275322
+![Samurai-game DDD (1)](https://github.com/user-attachments/assets/1ee3ae36-1653-44ae-8eac-68f9b63c7530)
+
+7. **METRICS:** at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
     
-7. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
+8. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
     
-8. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
+9. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
     
-9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
+10. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
-10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
+11. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
     
-11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
+12. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
     
-12. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
+13. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
     
-13. **AI Coding**: Set Up an AI-coding environment on your computer like ZED, Aider, etc. Show your steps and personal experiences! ([ref](https://newsletter.pragmaticengineer.com/p/ide-that-software-engineers-love))
+14. **AI Coding**: Set Up an AI-coding environment on your computer like ZED, Aider, etc. Show your steps and personal experiences! ([ref](https://newsletter.pragmaticengineer.com/p/ide-that-software-engineers-love))
     
-14. **FUNCTIONAL PROGRAMMING:** prove that you have covered all functional aspects in your code as:
+15. **FUNCTIONAL PROGRAMMING:** prove that you have covered all functional aspects in your code as:
     - only final data structures
     - (mostly) side-effect-free functions
     - the use of higher-order functions
@@ -43,5 +46,5 @@ Provide the prompts in brackets that have helped you to improve or structure som
     - use closures / anonymous functions
     - You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc.
       
-15. Set up a running **AI Coding** environment! Prove it by coding something small.
+16. Set up a running **AI Coding** environment! Prove it by coding something small.
     
