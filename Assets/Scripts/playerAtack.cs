@@ -16,7 +16,6 @@ public class playerAtack : MonoBehaviour
     public float attackRate = 3f;
     private float nextAttackTime = 0f;
 
-    public RaycastHit2D hit;
 
     // Start is called before the first frame update
     void Start()
