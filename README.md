@@ -16,7 +16,8 @@ SOLUTIONS:
 
 Use-Case Diagram:
 
-![image](https://github.com/user-attachments/assets/2ee70541-4369-4d2d-a9ba-ad347c9b5450)
+![image](https://github.com/user-attachments/assets/473672be-0f31-45d6-b0f1-f1ff20268557)
+
 
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
 
