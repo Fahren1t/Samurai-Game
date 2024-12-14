@@ -25,9 +25,11 @@ Use-Case Diagram:
    https://www.notion.so/Requirements-Engineering-for-Samurai-Game-15010139db9b8007bd93ebcbddd6c6d0
    ![image](https://github.com/user-attachments/assets/f8bb7b9a-350d-466d-a655-05d7c26892a2)
 
-      Professional tool(Monday.com):
+      Professional tool(Monday.com): The requirement details are written inside. When clicked on the requirement, a page shows up, and at that page click on the "item description" page to see the details.
+      They are exactly the same requirements as the notion ones in notion.  
    
-   ![image](https://github.com/user-attachments/assets/d4eded54-e942-4bda-aae9-bfbabe4a3efd)
+   ![image](https://github.com/user-attachments/assets/1196ce4e-b168-4d67-add1-dc186345f8ea)
+
 
 
 
