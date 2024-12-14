@@ -19,6 +19,10 @@ Use-Case Diagram:
 ![image](https://github.com/user-attachments/assets/473672be-0f31-45d6-b0f1-f1ff20268557)
 
 
+
+
+    
+
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
 
    SOLUTIONS: non professional tool:
@@ -26,10 +30,12 @@ Use-Case Diagram:
    ![image](https://github.com/user-attachments/assets/f8bb7b9a-350d-466d-a655-05d7c26892a2)
 
       Professional tool(Monday.com): The requirement details are written inside. When clicked on the requirement, a page shows up, and at that page click on the "item description" page to see the details.
-      They are exactly the same requirements as the notion ones in notion.  
+      They are exactly the same requirements as the ones in notion.  
    
    ![image](https://github.com/user-attachments/assets/1196ce4e-b168-4d67-add1-dc186345f8ea)
 
+
+   
 
 
 
