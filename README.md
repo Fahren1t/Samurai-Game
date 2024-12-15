@@ -19,11 +19,25 @@ Use-Case Diagram:
 ![image](https://github.com/user-attachments/assets/473672be-0f31-45d6-b0f1-f1ff20268557)
 
 
+
+
+    
+
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
 
    SOLUTIONS: non professional tool:
    https://www.notion.so/Requirements-Engineering-for-Samurai-Game-15010139db9b8007bd93ebcbddd6c6d0
    ![image](https://github.com/user-attachments/assets/f8bb7b9a-350d-466d-a655-05d7c26892a2)
+
+      Professional tool(Monday.com): The requirement details are written inside. When clicked on the requirement, a page shows up, and at that page click on the "item description" page to see the details.
+      They are exactly the same requirements as the ones in notion.
+   https://fahren1te.monday.com/boards/1743098787
+   
+   ![image](https://github.com/user-attachments/assets/1196ce4e-b168-4d67-add1-dc186345f8ea)
+
+
+   
+
 
 
 5. **ANALYSIS**: **A)** Think about your checklist (on an extra A4 page) from all the points of the ‘ANA - Analysis’ learning unit, with the points that you consider relevant for your project (e.g. 10-15 instead of 30 on the overall picture) **B)** Carry out an analysis of your semester project / your favourite project. Or have a start-up idea and would like to hand in the start-up analysis as part of a large documentary! There should be at least 2 pages. Take the 10-15 points from the checklist (with e.g. 1-2 paragraphs per point). Assume that you will soon have a fishing rod for the start-up chapter. If you are successful, you would receive a lot of ‘money’ in order to be allowed to design and implement it later. So get your start-up off to a successful start!The use of large language models is explicitly encouraged here! However, don't try to solve everything with one prompt and then submit 10 pages: get specific help!
