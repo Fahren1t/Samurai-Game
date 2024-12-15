@@ -64,13 +64,16 @@
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\interfaces\IDamageable.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Attacks\DefenseArea.cs" />
     <Compile Include="Assets\Scripts\Attacks\EnemyProjectile.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Attacks\EnemyShoot.cs" />
     <Compile Include="Assets\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\Attacks\AttackArea.cs" />
-    <Compile Include="Assets\Scripts\Attacks\PlayerAttack.cs" />
+    <Compile Include="Assets\Scripts\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\interfaces\IDeflectable.cs" />
   </ItemGroup>
   <ItemGroup>

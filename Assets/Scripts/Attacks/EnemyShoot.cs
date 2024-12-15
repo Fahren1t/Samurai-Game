@@ -50,7 +50,7 @@ public class EnemyShoot : MonoBehaviour
 
         //gra reference to the enemyProjectile 
         enemyProjectile = bulletRB.gameObject.GetComponent<EnemyProjectile>();
+        enemyProjectile.enemyColl = coll;
 
-        enemyProjectile.enemyColl =  coll;
     }
 }

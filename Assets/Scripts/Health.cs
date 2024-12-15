@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour, IDamageable
+public class Health : MonoBehaviour
 {
     [SerializeField] private int health = 1;
     //[SerializeField] private ParticleSystem damageParticles;

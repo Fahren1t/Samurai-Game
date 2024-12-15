@@ -11,16 +11,19 @@ public class EnemyProjectile : MonoBehaviour, IDeflectable
 
     private Collider2D coll;
     private Rigidbody2D rb;
+    
 
     private void Start()
     {
+        
         coll = GetComponent<Collider2D>();
         rb = GetComponent<Rigidbody2D>();
 
 
-        IgnoreCollisionWithEnemyToggle();    
+        IgnoreCollisionWithEnemyToggle();
+        Destroy(gameObject, 3);
     }
-    //on collision Damage
+    
 
 
 
@@ -64,6 +67,7 @@ public class EnemyProjectile : MonoBehaviour, IDeflectable
 
         // Flip the object horizontally to face the opposite direction
         transform.rotation = Quaternion.Euler(0, 0, transform.rotation.eulerAngles.z + 180f);
+
         
     }
 

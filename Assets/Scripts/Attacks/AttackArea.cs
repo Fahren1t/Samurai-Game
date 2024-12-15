@@ -22,6 +22,9 @@ public class AttackArea : MonoBehaviour
             health.Damage(damage);
         }
         
+
+
+
         // Check for IDeflectable interface
         IDeflectable deflectable = collider.GetComponent<IDeflectable>();
         if (deflectable != null)
