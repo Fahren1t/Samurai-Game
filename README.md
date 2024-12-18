@@ -26,7 +26,7 @@ Use-Case Diagram:
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
 
    SOLUTIONS: non professional tool:
-   https://www.notion.so/Requirements-Engineering-for-Samurai-Game-15010139db9b8007bd93ebcbddd6c6d0
+   [https://www.notion.so/Requirements-Engineering-for-Samurai-Game-15010139db9b8007bd93ebcbddd6c6d0](https://www.notion.so/invite/acd3f923c77d31aec91f7f6bd9e27ac8cb905568)
    ![image](https://github.com/user-attachments/assets/f8bb7b9a-350d-466d-a655-05d7c26892a2)
 
       Professional tool(Monday.com): The requirement details are written inside. When clicked on the requirement, a page shows up, and at that page click on the "item description" page to see the details.
