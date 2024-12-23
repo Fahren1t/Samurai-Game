@@ -19,6 +19,10 @@ Use-Case Diagram:
 ![image](https://github.com/user-attachments/assets/473672be-0f31-45d6-b0f1-f1ff20268557)
 
 
+Class Diagram (not final):
+
+
+![image](https://github.com/user-attachments/assets/bc7d1245-91fa-4710-a165-5475689c3428)
 
 
     
