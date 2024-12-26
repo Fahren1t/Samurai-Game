@@ -9,8 +9,18 @@ The player will be standin at the left side of the screen, and the enemies will 
 **B**) Make sure each person has applied the following topics on the code which have been taught in the lecture:
 
 1. Use and understand **GIT,** and be able to apply the basic commands. Can you experiment with time travelling or branches/merges? E.g. add some screenshots, add a paragraph text or show by reference/link into the commits, that you applied all the commands.
+
+   SOLUTIONS (SCREENSHOTS):
+
+   staging files and destaging them:
+   ![staging-files](https://github.com/user-attachments/assets/aa37fc0b-54f9-44a0-bfe3-779e860356d7)
+
+   ![unstaging](https://github.com/user-attachments/assets/7f33cd5a-7de8-4bb2-954d-253d497ccb48)
+
+   committing files: 
    
-2. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
+   
+3. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
 
 SOLUTIONS:
 
