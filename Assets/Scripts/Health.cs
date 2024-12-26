@@ -5,7 +5,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private int health = 1;
+
     //[SerializeField] private ParticleSystem damageParticles;
+    
     public void Damage(int amount)
     {
         if (health != 0)

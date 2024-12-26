@@ -5,24 +5,23 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float appearDelay = 0.12f;
-    private float disappearDelay = 0.08f;
-    
     public Animator animator;
 
-    private GameObject defenseArea = default;
-    private DefenseArea defenseAreaScript;
-    private bool defensing = false;
-
-    private GameObject attackArea = default;
-    private AttackArea attackAreaScript;
-    private bool attacking = false;
-
     public float attackRate = 3f;
-    private float nextAttackTime = 0f;
+    public float defenseRate = 3f;
     
-    private float defenseRate = 3f;
+    private float nextAttackTime = 0f;
     private float nextDefenseTime = 0f;
+
+    private bool attacking = false;
+    private bool defensing = false;
+ 
+    private GameObject attackArea = default;
+    private GameObject defenseArea = default;
+
+    private AttackArea attackAreaScript;
+    
+    
 
 
 
@@ -36,6 +35,7 @@ public class Player : MonoBehaviour
 
         attackAreaScript = attackArea.GetComponent<AttackArea>();
         attackAreaScript.OnDeflectableEntered += HandleDeflectable; // Subscribe to the event
+
        
         
     }
@@ -87,12 +87,16 @@ public class Player : MonoBehaviour
         }
 
     }
+
+    //deflects objects with Ideflectable interface
     private void HandleDeflectable(IDeflectable deflectable)
     {
         Debug.Log("Deflecting object...");
         deflectable.Deflect(transform.right); // Perform deflection in the given direction
     }
 
+
+    //performs attack action
     private void Attack()
     {
         // Trigger animation
@@ -102,21 +106,7 @@ public class Player : MonoBehaviour
         StartCoroutine(ManageAttackArea()); // Pass custom times as arguments
     }
 
-    private IEnumerator ManageAttackArea()
-    {
-        // Wait for the specified delay before enabling the attack area
-        yield return new WaitForSeconds(appearDelay);
-        attacking = true;
-        attackArea.SetActive(attacking);
-
-        // Wait for the specified delay before disabling the attack area
-        yield return new WaitForSeconds(disappearDelay);
-        attacking = false;
-        attackArea.SetActive(attacking);
-    }
-
-    
-
+    //performans defense action
     private void Defense()
     {
         //trigger animation
@@ -124,8 +114,24 @@ public class Player : MonoBehaviour
 
         //set activate defence mode
        StartCoroutine(ManageDefenseArea()); // Pass custom times as arguments
+    }    
+
+    
+    //makes it so attack area openes after some time and closes after some time
+    private IEnumerator ManageAttackArea()
+    {
+        // Wait for the specified delay before enabling the attack area
+        yield return new WaitForSeconds(0.12f);
+        attacking = true;
+        attackArea.SetActive(attacking);
+
+        // Wait for the specified delay before disabling the attack area
+        yield return new WaitForSeconds(0.08f);
+        attacking = false;
+        attackArea.SetActive(attacking);
     }
 
+    //makes it so defense area openes after some time and closes after some time
     private IEnumerator ManageDefenseArea()
     {
         // Wait for the specified delay before enabling the attack area
@@ -134,7 +140,7 @@ public class Player : MonoBehaviour
         defenseArea.SetActive(defensing);
 
         // Wait for the specified delay before disabling the attack area
-        yield return new WaitForSeconds(1 / defenseRate);
+        yield return new WaitForSeconds(1/ defenseRate);
         defensing = false;
         defenseArea.SetActive(defensing);
     }

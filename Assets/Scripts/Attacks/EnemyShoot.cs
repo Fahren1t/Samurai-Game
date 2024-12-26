@@ -2,16 +2,20 @@ using UnityEngine;
 
 public class EnemyShoot : MonoBehaviour
 {
+    [SerializeField] public float bulletSpeed = 30f;
+
     [SerializeField] private Rigidbody2D bulletPrefab;
+                     private Rigidbody2D bulletRB;
+
+                     private EnemyProjectile enemyProjectile;
+
+                     private Collider2D coll;
+        
     [SerializeField] private float timeBtwAttacks = 2f;
-    [SerializeField] public float bulletSpeed = 15f;
-    private float shootTimer;
+                     private float shootTimer;
 
-    private Rigidbody2D bulletRB;
 
-    private EnemyProjectile enemyProjectile;
 
-    private Collider2D coll;
 
     void Start()
     {

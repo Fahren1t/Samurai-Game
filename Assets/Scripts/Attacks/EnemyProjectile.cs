@@ -2,37 +2,40 @@ using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour, IDeflectable
 {
-    private IDamageable iDamagable;
-    [SerializeField] private int damageAmount = 1;
+    [field : SerializeField] public float returnSpeed { get; set; } = 130f;
+                             public Collider2D enemyColl { get; set; }
+                             
+                             private Collider2D coll;
 
-    public Collider2D enemyColl { get; set; }
+            [SerializeField] public int damageAmount = 5;
 
-    [field : SerializeField] public float returnSpeed { get; set; } = 15f;
+                             private IDamageable iDamagable;
 
-    private Collider2D coll;
-    private Rigidbody2D rb;
+                             private Rigidbody2D rb;
     
 
     private void Start()
     {
         
-        coll = GetComponent<Collider2D>();
-        rb = GetComponent<Rigidbody2D>();
+        coll = GetComponent<Collider2D>(); //get collider of projectile
+        rb = GetComponent<Rigidbody2D>(); //get ridgidbody of projectile
 
-
+        //before starting, set the collison false so that enemy doesn't hurt himself
         IgnoreCollisionWithEnemyToggle();
+
+        //destroy the arrow after 3 seconds
         Destroy(gameObject, 3);
     }
-    
 
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        // Consider adding null checks and logging
-        iDamagable = collision.gameObject.GetComponent<IDamageable>();
-        iDamagable?.Damage(damageAmount);
-    }
+
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    // Consider adding null checks and logging
+    //    iDamagable = collision.gameObject.GetComponent<IDamageable>();
+    //    iDamagable?.Damage(damageAmount);
+    //}
 
 
 
@@ -54,8 +57,6 @@ public class EnemyProjectile : MonoBehaviour, IDeflectable
         }
         
     }
-
-
 
 
     public void Deflect(Vector2 deflectionDirection)

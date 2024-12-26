@@ -9,16 +9,19 @@ public class AttackArea : MonoBehaviour
 {
     private int damage = 1;
 
+    private EnemyHealth health;
+    
     private bool canDeflect = false;  // Add this variable to track deflectable objects
     private GameObject currentDeflectableObject = null;  // To store the reference to deflectable object
+
     public event Action<IDeflectable> OnDeflectableEntered; // Event to notify deflectable objects
 
-    private void OnTriggerEnter2D(Collider2D collider)
+    public void OnTriggerEnter2D(Collider2D collider)
     {
         //check the health condition
-        if (collider.GetComponent<Health>() != null)
+        if (collider.GetComponent<EnemyHealth>() != null)
         {
-            Health health = collider.GetComponent<Health>();
+            health = collider.GetComponent<EnemyHealth>();
             health.Damage(damage);
         }
         
