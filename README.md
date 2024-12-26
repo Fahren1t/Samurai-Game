@@ -18,8 +18,11 @@ The player will be standin at the left side of the screen, and the enemies will 
    ![unstaging](https://github.com/user-attachments/assets/7f33cd5a-7de8-4bb2-954d-253d497ccb48)
 
    committing files: 
-   
-   
+   ![commit-and-push](https://github.com/user-attachments/assets/918f0516-7984-4de3-b9fd-52a406578144)
+
+   creating and deleting branches:
+   ![branching](https://github.com/user-attachments/assets/487b3d09-1deb-48ff-bc46-363efd5d1837)
+
 3. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
 
 SOLUTIONS:
