@@ -38,7 +38,11 @@ Class Diagram (not final):
 ![image](https://github.com/user-attachments/assets/bc7d1245-91fa-4710-a165-5475689c3428)
 
 
+Component Diagram:
     
+
+![image](https://github.com/user-attachments/assets/db359942-631a-4972-9eee-495f0d0b0b41)
+
 
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
 
