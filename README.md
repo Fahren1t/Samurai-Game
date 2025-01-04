@@ -29,18 +29,19 @@ SOLUTIONS:
 
 Use-Case Diagram:
 
+https://lucid.app/lucidchart/c3b0c051-3b11-4cda-8739-fc89dce105da/edit?viewport_loc=-358%2C-1242%2C3132%2C1672%2C0_0&invitationId=inv_5bc9d4e5-8ee8-4d85-b044-323568979755
 ![image](https://github.com/user-attachments/assets/473672be-0f31-45d6-b0f1-f1ff20268557)
 
 
 Class Diagram (not final):
 
-
+https://lucid.app/lucidchart/048a0c23-a577-42be-bc89-8a74fee67523/edit?viewport_loc=-1803%2C-1310%2C3316%2C1770%2C0_0&invitationId=inv_5076c84a-09b7-4485-bc53-d09012d8281e
 ![image](https://github.com/user-attachments/assets/bc7d1245-91fa-4710-a165-5475689c3428)
 
 
 Component Diagram:
-    
 
+https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_loc=-908%2C-1040%2C4698%2C2508%2C0_0&invitationId=inv_c3b48f94-7638-4f05-acb7-fa328df6cfc3    
 ![image](https://github.com/user-attachments/assets/cc0811a2-6b4a-424d-ab38-a999ee4a5e8d)
 
 
