@@ -38,6 +38,15 @@ Please note that the without the game engine the codes might not work. Neighter 
 
 Scripts are in the **Assets > Scripts** file.
 
+.
+
+.
+
+.
+
+.
+
+.
 
 **A) Write a small pet project to get into coding again. The code in GitHub can be relatively simple (e.g., a game with console output). The doc can be short! (in contrast to the one below)**
 
@@ -47,20 +56,38 @@ Scripts are in the **Assets > Scripts** file.
 
    SOLUTIONS (SCREENSHOTS):
 
-   staging files and destaging them:
+   staging files:
    ![staging-files](https://github.com/user-attachments/assets/aa37fc0b-54f9-44a0-bfe3-779e860356d7)
-
+   
+   .
+   
+   and destaging them:
    ![unstaging](https://github.com/user-attachments/assets/7f33cd5a-7de8-4bb2-954d-253d497ccb48)
-
-   committing files: 
+   
+   .
+   
+   .
+   
+   committing files and pushing them: 
    ![commit-and-push](https://github.com/user-attachments/assets/918f0516-7984-4de3-b9fd-52a406578144)
-
+   
+   .
+   
    creating and deleting branches:
    ![branching](https://github.com/user-attachments/assets/487b3d09-1deb-48ff-bc46-363efd5d1837)
+
+   .
+   
 
 3. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
 
 SOLUTIONS:
+
+.
+
+I don't know if the links are working or not therefore I am also attaching the photos of the uml diagrams
+
+.
 
 Use-Case Diagram:
 
@@ -70,15 +97,32 @@ https://lucid.app/lucidchart/c3b0c051-3b11-4cda-8739-fc89dce105da/edit?viewport_
 
 Class Diagram (not final):
 
+.
+
+This is class diagram of my project, I said it is not final because it gets updated with every change I make naturally.
+
 https://lucid.app/lucidchart/048a0c23-a577-42be-bc89-8a74fee67523/edit?viewport_loc=-1803%2C-1310%2C3316%2C1770%2C0_0&invitationId=inv_5076c84a-09b7-4485-bc53-d09012d8281e
 ![image](https://github.com/user-attachments/assets/bc7d1245-91fa-4710-a165-5475689c3428)
 
 
 Component Diagram:
 
+.
+
+As explained in the beginning, the project cannot be exist without the Engine. I have also made a more complicated one, but unfortunately the app that I used limited my use of objects. 
+I am also attaching that in case if you would like to know.
+.
+
+**MAIN DIAGRAM**
 https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_loc=-908%2C-1040%2C4698%2C2508%2C0_0&invitationId=inv_c3b48f94-7638-4f05-acb7-fa328df6cfc3    
 ![image](https://github.com/user-attachments/assets/cc0811a2-6b4a-424d-ab38-a999ee4a5e8d)
 
+.
+
+**UNUSED DIAGRAM (NOT FINISHED)**
+![image](https://github.com/user-attachments/assets/86e11626-2d62-4cb8-b4d9-c999ce9b6078)
+
+.
 
 
 3. **REQUIREMENTS**: Create 5-10 good requirements for your project. Then put them into a simple tool (like Airtable, Notion or Trello) and a professional tool (like Monday, Jira, Doors, ObjectIF, Xebrio, etc.) Instead of the professional version, you can also build a tool yourself; e.g. with AI! If you have used AI / LLMs here, briefly describe where and how! However, it is more important here that some / many attributes are used!
@@ -88,7 +132,7 @@ https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_
    ![image](https://github.com/user-attachments/assets/f8bb7b9a-350d-466d-a655-05d7c26892a2)
 
       Professional tool(Monday.com): The requirement details are written inside. When clicked on the requirement, a page shows up, and at that page click on the "item description" page to see the details.
-      They are exactly the same requirements as the ones in notion.
+      They are exactly the same requirements as the ones in notion. Unfortunately my trial for the monday.com is ended and this page is not accessible I think. All I have is this screenshot I took.
    https://fahren1te.monday.com/boards/1743098787
    
    ![image](https://github.com/user-attachments/assets/1196ce4e-b168-4d67-add1-dc186345f8ea)
