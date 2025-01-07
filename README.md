@@ -77,7 +77,11 @@ Scripts are in the **Assets > Scripts** file.
    ![branching](https://github.com/user-attachments/assets/487b3d09-1deb-48ff-bc46-363efd5d1837)
 
    .
-   
+
+   Reverting a commit:
+   ![removing-features](https://github.com/user-attachments/assets/d3a9a2b6-981c-4b18-9ddc-08dd40dbec50)
+
+   .
 
 3. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
 
