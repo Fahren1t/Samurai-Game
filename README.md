@@ -1,4 +1,4 @@
-# Samurai-Game
+# Lost Ronin game
 this is a unity Game project for mobile. In this game player will have to deal with the enemies that are coming towards to him.
 The samurai that is in our controll can not move. it can only atack and deflect. The player will be static and the enemies will be moving.
 depending on the enemy, the player will have to deflect, atack or both in an order which is determined by the kind of enemy in order to defeat the enemy that is coming towards the player.
@@ -34,7 +34,9 @@ The Some objects are saved in the scenes, therefore they are not able to be seen
 Here is the general UI of the Unity game engine:
 ![image](https://github.com/user-attachments/assets/69aa19cc-a652-41c4-a3b8-c98745b9d346)
 
+Please note that the without the game engine the codes might not work. Neighter the engine nor the scripts can work without one an other. Thats why I will be putting the game's demo on the build file. 
 
+Scripts are in the **Assets > Scripts** file.
 
 
 **A) Write a small pet project to get into coding again. The code in GitHub can be relatively simple (e.g., a game with console output). The doc can be short! (in contrast to the one below)**
