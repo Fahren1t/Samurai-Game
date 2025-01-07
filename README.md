@@ -4,6 +4,39 @@ The samurai that is in our controll can not move. it can only atack and deflect.
 depending on the enemy, the player will have to deflect, atack or both in an order which is determined by the kind of enemy in order to defeat the enemy that is coming towards the player.
 The player will be standin at the left side of the screen, and the enemies will coming towards from the right side of the screen. These are the main mechanics, further mechanics is not guarrantied to be added.
 
+
+
+
+I will briefly explain how the development works with the engine, and with the codes. I in Unity developments, code files are called scripts. I will refer to them as scripts from now on. Unity provides a UI that allows to create some components,
+and also allows those components to interract with each other. How does that work? in Unity there are scenes. A scene can contain Objects, where other scenes may not have. A scene may not have a connection with an other scene. You can think of this like a playground, where a playground has kids playing. They are all playing in that scene, but may not have any corrolation between some other playground.
+
+![image](https://github.com/user-attachments/assets/fcacccd0-14a6-4dfa-acfa-e3139a81eac6)-------> scenes
+
+In those scenes there are objects, you can think of them as kids playing in the playground. In unity, scripts can be attached the objects, basicly giving them controllablity. If a script is attached to an object, the specified actions in the script, are applied on the object that is is attached to. For example: there is an object called Player, and the script that is attached to the player says: If(input is a) {move to the right} and whenever a is pressed object moves to the right. 
+
+![image](https://github.com/user-attachments/assets/38def441-064a-4bf7-a218-f0e87f3010cf)-------> Objects
+
+Alongside with scripts, there are also components that can be attached, in order to give in some specific abilities to the object. For example: when rigidbody2D component is attached to the object, physics can be applied to the object, or if a collider is applied to an object, whenever some other object enters the collision area, the script that is attached to the first object, gets notified via a method when there is a collison.
+
+![image](https://github.com/user-attachments/assets/9841ed57-0aaf-477b-a6bc-7948705f745c)
+
+
+The Engine makes these iteractions possible, because the scripts inherit from a class which is called MonoBehaviour. Every class has to be inheriting from MonoBehaviour class or these interactions would not be possible. That is why some methods are actually inherited from other classes that MonoBehaviour inherits. Here are some example methods: Start(), Update(), OnTriggerEnter2D().
+
+![image](https://github.com/user-attachments/assets/46ea586c-0736-48ed-86d1-65161c83f896) ![image](https://github.com/user-attachments/assets/2f92e08a-ce0c-41c1-a86c-0514e585d967)![image](https://github.com/user-attachments/assets/e363ce2f-3192-4d37-8399-a672fa052ff6)
+
+
+
+The Some objects are saved in the scenes, therefore they are not able to be seen in the files (Unless they are prefabs).  
+
+![image](https://github.com/user-attachments/assets/40405239-ecca-489e-9035-4cf26b84f028) ----------------->![image](https://github.com/user-attachments/assets/999d7e89-d2ca-4a5b-b632-2bea2ed1cb6d)
+
+Here is the general UI of the Unity game engine:
+![image](https://github.com/user-attachments/assets/69aa19cc-a652-41c4-a3b8-c98745b9d346)
+
+
+
+
 **A) Write a small pet project to get into coding again. The code in GitHub can be relatively simple (e.g., a game with console output). The doc can be short! (in contrast to the one below)**
 
 **B**) Make sure each person has applied the following topics on the code which have been taught in the lecture:
@@ -74,18 +107,28 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
 
 6. **METRICS:** at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
+
+SOLUTIONS:
+   Visual studios build in Metrics: How to access?
+   By choosing the Analyze > Calculate Code Metrics menu command within Visual Studio.
+   ![How-to-open-metrics-2](https://github.com/user-attachments/assets/4b8c9a9f-9cae-483d-9bc7-62b0d41b5d73)
+
+   The first thing that got my attention was Unnecesarry files (marked with yellow). I was unsing some free assests for my project, and they came up with also scripts, which were unneeded.
+   ![image](https://github.com/user-attachments/assets/4c5202fd-40c1-4fc7-b921-b22f3fb219b8)
+
+
     
-7. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
+8. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
     
-8. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
+9. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
     
-9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
+10. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
-10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
+11. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
     
-11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
+12. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
     
-12. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
+13. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
 
    SOLUTIONS: I prefer visual studio 2022, and here are my favorite shortcuts:
 
