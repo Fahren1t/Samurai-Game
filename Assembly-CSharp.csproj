@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\interfaces\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyShoot.cs" />
+    <Compile Include="Assets\Scripts\featureA.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyHealth.cs" />
     <Compile Include="Assets\Scripts\Player\AttackArea.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
