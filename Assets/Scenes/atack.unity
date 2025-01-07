@@ -1200,8 +1200,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.93304735, y: 0}
-  m_Size: {x: 0.9156947, y: 1.0000002}
+  m_Offset: {x: -0.6025559, y: 0}
+  m_Size: {x: 0.25471163, y: 1.0000002}
   m_Direction: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

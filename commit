@@ -1,0 +1,197 @@
+[33mcommit cc3ad9988ab107cec4bb21ce62e8cacddbc29005[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9bc3c4a3 036ee15b
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sun Dec 15 20:53:27 2024 +0100
+
+    Merge branch 'main' of https://github.com/Fahren1t/Samurai-Game
+
+[33mcommit 9bc3c4a374d6be01bb38b100d5f3df0bb1dd1682[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sun Dec 15 20:50:32 2024 +0100
+
+    newest updates
+
+[33mcommit 036ee15b9c5c0509ade10d923dde4b3599c709dc[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Sat Dec 14 17:25:22 2024 +0300
+
+    Update README.md
+
+[33mcommit a9f1546d7702c8ab38ea8e03b2d07418acc157cd[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Sat Dec 14 17:23:10 2024 +0300
+
+    Update README.md
+
+[33mcommit 6fa33a993592234f58c6ff9c2c5e02aae7db40c1[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Sat Dec 14 17:22:25 2024 +0300
+
+    Update README.md
+
+[33mcommit 6fee964866d64a135e3bf968eaf9038504a363cc[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Sat Dec 14 17:13:09 2024 +0300
+
+    Update README.md
+
+[33mcommit 215ea201557b61e2ead02c1df15e14388b64f672[m
+Merge: 1e4010ff 27e04841
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Dec 3 10:22:34 2024 +0100
+
+    Merge branch 'main' of https://github.com/Fahren1t/Samurai-Game
+
+[33mcommit 1e4010ffb8a43f0e16169eb439cc8e50ba0ed48e[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Dec 3 02:06:36 2024 +0100
+
+    build added for macOS
+
+[33mcommit 27e048415a7a27d70d06697211bd7bb777adfdb1[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Tue Dec 3 03:26:20 2024 +0300
+
+    Update README.md
+
+[33mcommit 09797309505335386eb84634ecc3900d4d0c71b4[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Tue Dec 3 03:19:20 2024 +0300
+
+    Update README.md
+
+[33mcommit aa50bf55cb0a6d15f340184cdf3005f238645e5e[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Tue Dec 3 02:57:48 2024 +0300
+
+    Update README.md
+
+[33mcommit 5e8d38803f3378daa1dd7897eaccdff53eaba1f3[m
+Merge: da6c7b74 acd22f5a
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Dec 3 00:54:38 2024 +0100
+
+    Merge branch 'main' of https://github.com/Fahren1t/Samurai-Game
+
+[33mcommit da6c7b743b9a83b01ca82ed6fd7e5af0ec6e4216[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Dec 3 00:39:26 2024 +0100
+
+    build in
+
+[33mcommit acd22f5a2c37b53ae5802d1432c6ac1c490fb1dd[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Mon Dec 2 23:06:27 2024 +0300
+
+    Update README.md
+
+[33mcommit 1f85f6c45ec3a2fbbbf4d612193da95602b55e1e[m
+Merge: 55867b96 364cdd11
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sun Dec 1 18:35:28 2024 +0100
+
+    Merge branch 'main' of https://github.com/Fahren1t/Samurai-Game
+
+[33mcommit 55867b96cee0c42f9fcf73301b0220fa5e9d7b45[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sun Dec 1 18:33:02 2024 +0100
+
+    latest update
+
+[33mcommit 364cdd11e1737a97be174091f9c69847f8c6655f[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Fri Nov 29 19:20:52 2024 +0300
+
+    UML Use-Case README.md
+    
+    UML Use-case diagram added(might get edited later)
+
+[33mcommit c8d47d5e30f137137cdba73b35b77f7ac7d1f68b[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Fri Nov 29 18:46:10 2024 +0300
+
+    Added DDD README.md
+
+[33mcommit 856e471b8ccdf518bbb6e105cf6876c74c2ab5dd[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Fri Nov 29 18:39:59 2024 +0300
+
+    Updated README.md
+
+[33mcommit 3f9266d8577d0e89650d89c56fbf85da7645dd98[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Fri Nov 29 00:23:45 2024 +0100
+
+    deflect done
+
+[33mcommit 3828270f6908d5f9d359e29c2fe3e546f967b7ba[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Mon Nov 18 22:41:55 2024 +0100
+
+    deflect mekanigi(bitmedi)
+
+[33mcommit 195bd91dffe8442ef8cf79ac101fb27ee1eda858[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Nov 12 16:17:13 2024 +0100
+
+    new .gitignore
+
+[33mcommit 77a841608a7f3546d276bf453baabd263e25c9a0[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Tue Nov 12 15:41:48 2024 +0100
+
+    add Library/ to .gitignore
+
+[33mcommit 70b1439a3b577e9572daf9d48c9c51e2e9b1b2e2[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Mon Nov 4 22:15:36 2024 +0100
+
+    everything except library
+
+[33mcommit 27211612e0787c7875e78b41708e8e198bb0fecc[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sat Oct 26 18:44:20 2024 +0200
+
+    Library hopefully added
+
+[33mcommit e6f27f0fc133d9c8fc622401ce845b0d1666b1af[m
+Author: Kemal <kemalayman@hotmail.com>
+Date:   Sat Oct 26 18:28:56 2024 +0200
+
+    cik artik
+
+[33mcommit d4e56926150d51e7c99587a6669f251b2fd5167a[m
+Author: Fahren1t <kemalayman@hotmail.com>
+Date:   Sat Oct 26 14:33:25 2024 +0200
+
+    library changes
+
+[33mcommit 07d9f8be98965d2729480539da6011d9b5696e0d[m
+Author: Fahren1t <kemalayman@hotmail.com>
+Date:   Fri Oct 25 16:15:25 2024 +0200
+
+    Game
+
+[33mcommit 8416fd97de87f3863a431a417ef5cdf4eb747614[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Thu Oct 24 15:52:18 2024 +0300
+
+    Update README.md
+
+[33mcommit 42f2dcaa471cb52f82725212ed2e874cdc841eb2[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Wed Oct 23 16:15:31 2024 +0300
+
+    Update README.md
+
+[33mcommit 63b8befd0c34e21c6cde1edb4dddb523eed27a5d[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Wed Oct 23 16:05:20 2024 +0300
+
+    Update README.md
+
+[33mcommit ddea698efcf0edadc49096543d876dd26be40037[m
+Author: Fahren1t <154224829+Fahren1t@users.noreply.github.com>
+Date:   Wed Oct 23 15:24:22 2024 +0300
+
+    Initial commit
