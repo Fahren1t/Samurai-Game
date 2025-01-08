@@ -159,18 +159,47 @@ Provide the prompts in brackets that have helped you to improve or structure som
 6. **METRICS:** at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
 
 SOLUTIONS:
-   Visual studios build in Metrics: How to access?
+   **Visual studios build in Metrics**: How to access?
    By choosing the Analyze > Calculate Code Metrics menu command within Visual Studio.
    ![How-to-open-metrics-2](https://github.com/user-attachments/assets/4b8c9a9f-9cae-483d-9bc7-62b0d41b5d73)
 
    The first thing that got my attention was Unnecesarry files (marked with yellow). I was unsing some free assests for my project, and they came up with also scripts, which were unneeded.
    ![image](https://github.com/user-attachments/assets/4c5202fd-40c1-4fc7-b921-b22f3fb219b8)
 
+   .
+   
+   It also made an error list to show the potential performance errors: 
+   ![image](https://github.com/user-attachments/assets/f91c0646-49ef-4a48-8bcc-89d0b72abf98)
+   
+   I fixed all of them with refactoring (Except one because I will fill that later).
+   ![image](https://github.com/user-attachments/assets/e2bb5dc4-c7d2-4551-bdb1-fff4d945221b)
+
 
     
-8. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
+7. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
     
-9. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
+8. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
+
+   I have never realized that how much refactoring makes it easier to code. An example I can give is, by using **Visual Studio 2022**'s build in metrics, I can see the potential performance issues. And instead of finding a way to solve them, I can basicly just refactor the code and it fixes automaticly!
+
+   ![image](https://github.com/user-attachments/assets/a4732f85-531e-4ae8-8577-ea28e96aa27b)
+   it even shows how it will look afterwards.
+
+                                             |
+   
+                                             |
+   
+                                             |
+   
+                                             |
+   
+                                          \    /
+   
+                                            \/
+         
+   ![image](https://github.com/user-attachments/assets/28ef1552-958a-4cdf-a27b-56e816ad5045)
+   This can be applied to all the issues.
+
     
 10. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
