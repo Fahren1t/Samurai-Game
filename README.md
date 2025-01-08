@@ -119,7 +119,7 @@ I am also attaching that in case if you would like to know.
 
 **MAIN DIAGRAM**
 https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_loc=-908%2C-1040%2C4698%2C2508%2C0_0&invitationId=inv_c3b48f94-7638-4f05-acb7-fa328df6cfc3    
-![image](https://github.com/user-attachments/assets/cc0811a2-6b4a-424d-ab38-a999ee4a5e8d)
+![image](https://github.com/user-attachments/assets/869c2aa7-317d-48bc-99d1-e8ec21d4df2d)
 
 .
 
