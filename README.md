@@ -83,7 +83,7 @@ Scripts are in the **Assets > Scripts** file.
 
    .
 
-3. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
+2. **UML:** at least **3** big different diagrams. "big" means you can pump it up artificially as written in DDD. You have 10 million $ from me! Please export the pics. I can not install all the tools to view them! For example, these diagrams are a good idea: Use-Case, Component D, Class D, and Activity Diagram.
 
 SOLUTIONS:
 
@@ -175,6 +175,21 @@ SOLUTIONS:
    ![image](https://github.com/user-attachments/assets/e2bb5dc4-c7d2-4551-bdb1-fff4d945221b)
 
 
+   **NDepend:** this is a great tool for deep analisys for C# projects. NDepend is really easy to use and set. The only bad thing is that it is not for free. Currently I am using the trial version. But I will defitively have it in mind that if some day I need a metric for a C# project, NDepend is a great tool.    
+   
+![image](https://github.com/user-attachments/assets/ffc2bbfc-54e5-4871-ad60-bed4a03f9648)
+
+.
+
+I have found out that it takes some time for program to locate the codes. This makes so much sense, because before I arrenged the code files according to components. I put enemy classes together, but those enemy classes provide information to some player classes. Therefore it takes more time for that information to reach. It will look messier, but in terms of performance, it will be better
+![image](https://github.com/user-attachments/assets/0ac03ea4-70eb-4cb6-a94f-3bdf836c962e)
+
+.
+I putt them all in the same file. I will find and other way to short them but for now I will leave it as be. And code quality increased when I did.
+![image](https://github.com/user-attachments/assets/a38aef47-5f69-4b16-856e-4329621f5ad4) ![image](https://github.com/user-attachments/assets/ea30f7b8-93cd-4ece-8b94-d3d5eae5ed8a)
+
+
+.
     
 7. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
     
@@ -198,16 +213,16 @@ SOLUTIONS:
                                             \/
          
    ![image](https://github.com/user-attachments/assets/28ef1552-958a-4cdf-a27b-56e816ad5045)
-   This can be applied to all the issues.
+   This can be applied to all the issues. In this example the way to provide the tag was changed. There was a build in method for that which was faster! I was able to see that with metrics, and make it faster.
 
     
-10. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
+9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
-11. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
+10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
     
-12. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
+11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
     
-13. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
+12. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
 
    SOLUTIONS: I prefer visual studio 2022, and here are my favorite shortcuts:
 
@@ -226,6 +241,7 @@ SOLUTIONS:
    CTRL + M + M: open or close an outlining
   
    ![open-method-or-close](https://github.com/user-attachments/assets/cb04dbf8-a1b1-4bf1-9fec-64d1e57afbce)
+   ![image](https://github.com/user-attachments/assets/0e845a9e-a213-495c-8cbf-cb0bcfe2c6e3)
 
 
 13. **AI Coding**: Set Up an AI-coding environment on your computer like ZED, Aider, etc. Show your steps and personal experiences! ([ref](https://newsletter.pragmaticengineer.com/p/ide-that-software-engineers-love))
