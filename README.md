@@ -151,7 +151,10 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
 5. A) **DDD**: **(A)** Do an Event-Storming to find your Domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) **(B)**. Drop your Domains into a Core Domain Chart **(C)** and indicate the Relations = Mappings (! see MIRO examples again) between the Domains in a new diagram!
 
-   SOLUTION:   https://miro.com/welcomeonboard/eTNtYUpBTFdheXBydXFRd2lPbkxRUmIxM0NyM0NYUFFVUnRNVXhwYWpWMXM3emErMmM1OTFkU2Iva09GcTJDdmRkM1Q3YU5ocnFkbnZLL2tWWDE5SFRrVGR0SUxuaTIvdTdsdDJEemc4NWhuTDBEZUs5OWpIMVR1MlhXOVJnWGEhZQ==?share_link_id=880248275322
+   SOLUTION:
+   
+   
+   https://miro.com/welcomeonboard/eTNtYUpBTFdheXBydXFRd2lPbkxRUmIxM0NyM0NYUFFVUnRNVXhwYWpWMXM3emErMmM1OTFkU2Iva09GcTJDdmRkM1Q3YU5ocnFkbnZLL2tWWDE5SFRrVGR0SUxuaTIvdTdsdDJEemc4NWhuTDBEZUs5OWpIMVR1MlhXOVJnWGEhZQ==?share_link_id=880248275322
 ![Samurai-game DDD (1)](https://github.com/user-attachments/assets/1ee3ae36-1653-44ae-8eac-68f9b63c7530)
 
 
@@ -159,7 +162,7 @@ Provide the prompts in brackets that have helped you to improve or structure som
 6. **METRICS:** at least two. Sonarcube would be great. Other non-trivial metrics are also fine.
 
 SOLUTIONS:
-   **Visual studios build in Metrics**: How to access?
+   **1. Visual studio's build in Metrics**: How to access?
    By choosing the Analyze > Calculate Code Metrics menu command within Visual Studio.
    ![How-to-open-metrics-2](https://github.com/user-attachments/assets/4b8c9a9f-9cae-483d-9bc7-62b0d41b5d73)
 
@@ -175,7 +178,7 @@ SOLUTIONS:
    ![image](https://github.com/user-attachments/assets/e2bb5dc4-c7d2-4551-bdb1-fff4d945221b)
 
 
-   **NDepend:** this is a great tool for deep analisys for C# projects. NDepend is really easy to use and set. The only bad thing is that it is not for free. Currently I am using the trial version. But I will defitively have it in mind that if some day I need a metric for a C# project, NDepend is a great tool.    
+   **2. NDepend:** this is a great tool for deep analisys for C# projects. NDepend is really easy to use and set. The only bad thing is that it is not for free. Currently I am using the trial version. But I will defitively have it in mind that if some day I need a metric for a C# project, NDepend is a great tool.    
    
 ![image](https://github.com/user-attachments/assets/ffc2bbfc-54e5-4871-ad60-bed4a03f9648)
 
@@ -185,7 +188,7 @@ I have found out that it takes some time for program to locate the codes. This m
 ![image](https://github.com/user-attachments/assets/0ac03ea4-70eb-4cb6-a94f-3bdf836c962e)
 
 .
-I putt them all in the same file. I will find and other way to short them but for now I will leave it as be. And code quality increased when I did.
+I put them all in the same file. I will find and other way to short them but for now I will leave it as be. And code quality increased when I did it.
 ![image](https://github.com/user-attachments/assets/a38aef47-5f69-4b16-856e-4329621f5ad4) ![image](https://github.com/user-attachments/assets/ea30f7b8-93cd-4ece-8b94-d3d5eae5ed8a)
 
 
@@ -195,25 +198,24 @@ I putt them all in the same file. I will find and other way to short them but fo
     
 8. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
 
-   I have never realized that how much refactoring makes it easier to code. An example I can give is, by using **Visual Studio 2022**'s build in metrics, I can see the potential performance issues. And instead of finding a way to solve them, I can basicly just refactor the code and it fixes automaticly!
+.
+
+   I have never realized that how much refactoring makes it easier to code. It even shows how it will look afterwards
+
+   **1. Example:**  An example I can give is, by using **Visual Studio 2022**'s build in metrics, I can see the potential performance issues. And instead of finding a way to solve them, I can basicly just refactor the code and it fixes automaticly! . In this example, refactoring changed the code by replacing the equals operator, with a much more efficient build in method.
 
    ![image](https://github.com/user-attachments/assets/a4732f85-531e-4ae8-8577-ea28e96aa27b)
-   it even shows how it will look afterwards.
 
-                                             |
    
-                                             |
-   
-                                             |
-   
-                                             |
-   
-                                          \    /
-   
-                                            \/
+
          
    ![image](https://github.com/user-attachments/assets/28ef1552-958a-4cdf-a27b-56e816ad5045)
-   This can be applied to all the issues. In this example the way to provide the tag was changed. There was a build in method for that which was faster! I was able to see that with metrics, and make it faster.
+
+   
+   **2. Example**: This example turns the variables into fields. And not only that it also changes it so that the field is used instead of the variable itself
+   
+   ![image](https://github.com/user-attachments/assets/88f59c09-c69e-4adf-9b38-f3e7e0e721a8)
+
 
     
 9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
@@ -241,7 +243,7 @@ I putt them all in the same file. I will find and other way to short them but fo
    CTRL + M + M: open or close an outlining
   
    ![open-method-or-close](https://github.com/user-attachments/assets/cb04dbf8-a1b1-4bf1-9fec-64d1e57afbce)
-   ![image](https://github.com/user-attachments/assets/0e845a9e-a213-495c-8cbf-cb0bcfe2c6e3)
+   
 
 
 13. **AI Coding**: Set Up an AI-coding environment on your computer like ZED, Aider, etc. Show your steps and personal experiences! ([ref](https://newsletter.pragmaticengineer.com/p/ide-that-software-engineers-love))
