@@ -191,6 +191,10 @@ I have found out that it takes some time for program to locate the codes. This m
 I put them all in the same file. I will find and other way to short them but for now I will leave it as be. And code quality increased when I did it.
 ![image](https://github.com/user-attachments/assets/a38aef47-5f69-4b16-856e-4329621f5ad4) ![image](https://github.com/user-attachments/assets/ea30f7b8-93cd-4ece-8b94-d3d5eae5ed8a)
 
+.
+
+An other thing I noticed was I should have been using namespaces in order to manage the code better. So I added every class to a namespace that I declared
+![image](https://github.com/user-attachments/assets/91212ef1-5b9b-459a-97ca-27325dbe07db)
 
 .
     
@@ -216,8 +220,13 @@ I put them all in the same file. I will find and other way to short them but for
    
    ![image](https://github.com/user-attachments/assets/88f59c09-c69e-4adf-9b38-f3e7e0e721a8)
 
+   .
 
-    
+   **3. Example**: I can refactor the code so that it adds the class to a namespace automaticly 
+   ![adding-namespaces-with-refactoring](https://github.com/user-attachments/assets/bdd288a6-eb83-4982-9b5d-1055e43caf0b)
+
+   .
+   
 9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
