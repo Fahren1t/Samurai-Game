@@ -194,12 +194,67 @@ I put them all in the same file. I will find and other way to short them but for
 .
 
 An other thing I noticed was I should have been using namespaces in order to manage the code better. So I added every class to a namespace that I declared
+
+.
+
 ![image](https://github.com/user-attachments/assets/91212ef1-5b9b-459a-97ca-27325dbe07db)
+
+.
+
+Adding namespaces to the code caused some other issues I had to solve. But in the end, after sometime of adjustments, it made the code more efficient.
+
+![image](https://github.com/user-attachments/assets/c50dbbc8-473a-458e-9534-dd34611291e7)
 
 .
     
 7. **CLEAN CODE DEVELOPMENT:** A) At least 5 points you can show me with an explanation of why this is clean code in your code and/or what has improved & B) >>10 points on your personal CCD cheat sheet. E.g. a PDF.
-    
+
+.
+
+ 1. For the naming, I tried to name as much as understandable as possible :
+
+![image](https://github.com/user-attachments/assets/d383ed7c-9f77-44f5-8cfd-b65b7777775c)
+  
+.
+
+ 2. To make the code cleaner, I also changed some lines of codes which were used multiple times, with methods.   
+
+   **Before:**
+ 
+ ![image](https://github.com/user-attachments/assets/50410c97-34cd-41e7-8f73-d5989db81141) ![image](https://github.com/user-attachments/assets/3f3cacc0-9d0d-4d0b-86e3-8c53938ba824)
+
+   **After:**
+
+   ![image](https://github.com/user-attachments/assets/7270be89-14ea-4e3d-821f-9342d6a22283) ![image](https://github.com/user-attachments/assets/22b8bf16-4503-46e1-a475-5dcfc4788539) ![image](https://github.com/user-attachments/assets/16c99836-4fdb-4890-bf71-f76f0941a63c)
+
+.
+
+I also did the same thing for the confition operations:
+
+**BEFORE:**
+
+![image](https://github.com/user-attachments/assets/b4664a13-6fa0-4095-9f95-437b538f29de)
+
+**AFTER:**
+
+![image](https://github.com/user-attachments/assets/d835800d-fae9-4c0d-89ff-6dc86cd917f9) ![image](https://github.com/user-attachments/assets/b589d9ff-1261-43f9-b795-6c7b97b65bd7)
+
+.
+
+I also had to remove some magic numbers. This increased the amount of variable a lot though. I am not so sure if it is more efficient or not but oh well, thats what is was written in the documents so...
+
+**BEFORE:**
+
+![image](https://github.com/user-attachments/assets/646759fa-b9ce-4ffc-86b1-3026c4cf473c)
+
+.
+
+**AFTER:**
+
+![image](https://github.com/user-attachments/assets/6549dbcb-a159-4e92-9548-04a08cda3cd7)
+
+![image](https://github.com/user-attachments/assets/bdcb9899-fbda-4594-8dc0-b75905782a85)
+
 8. **REFACTORING**: Show me two (non-trivial) Refactoring Examples of your code! Showing the original content and the refactored code! Explain what happened, why and how it has improved! Again: do not send me pure AI work!
 
 .
@@ -214,19 +269,22 @@ An other thing I noticed was I should have been using namespaces in order to man
 
          
    ![image](https://github.com/user-attachments/assets/28ef1552-958a-4cdf-a27b-56e816ad5045)
-
    
-   **2. Example**: This example turns the variables into fields. And not only that it also changes it so that the field is used instead of the variable itself
-   
-   ![image](https://github.com/user-attachments/assets/88f59c09-c69e-4adf-9b38-f3e7e0e721a8)
-
    .
-
-   **3. Example**: I can refactor the code so that it adds the class to a namespace automaticly 
+   
+   **2. Example**: I can refactor the code so that it adds the class to a namespace automaticly 
    ![adding-namespaces-with-refactoring](https://github.com/user-attachments/assets/bdd288a6-eb83-4982-9b5d-1055e43caf0b)
 
    .
+
+   **3. EXAMPLE:** I needed to extract a method from a condition to make the code cleaner therefore I used refactoring!
    
+   ![image](https://github.com/user-attachments/assets/7aaa3294-225f-43e5-8d46-8dafa193561d)
+
+   I also touched on this in the cleancode development so I will not go full on details. But basically with this, the code become more readable and easy to understand. 
+
+   .
+
 9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
@@ -265,5 +323,5 @@ An other thing I noticed was I should have been using namespaces in order to man
     - use closures / anonymous functions
     - You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc.
       
-15. Set up a running **AI Coding** environment! Prove it by coding something small.
+
     
