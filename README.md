@@ -290,6 +290,19 @@ I also had to remove some magic numbers. This increased the amount of variable a
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
     
 11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
+
+   In Unity, unit tests work a little different. The unity engine has its own test runner which is really easy to use and understand. I haven't looked at how to intergrate tests to build, but I don't think it is necesary.
+
+   In this example a the test is to check if the enemy health is set to one.
+   
+   ![Test-runner](https://github.com/user-attachments/assets/5fc9af43-7042-467d-a4b0-02cef8daed69)
+
+.
+
+   Here is the code for it. It is pretty basic.
+   
+   ![image](https://github.com/user-attachments/assets/4626d7bc-110e-4f2a-bb7c-c7ceeef45560)
+
     
 12. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
 
