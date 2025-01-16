@@ -335,6 +335,15 @@ Has a little window I can use to chat or ask for instructions:
 
 ![image](https://github.com/user-attachments/assets/88c5003d-5afb-4512-befd-f7c84fc3ae51)
 
+It predicts what I will write according to the previous examples. Fastening the code writing:
+
+![image](https://github.com/user-attachments/assets/f7e1cd7f-7153-42dd-86a3-471771432860)
+
+One final advantage is (possibly the best one), it can look at the error and can possibly give a solution!
+
+![Fixing-issues-with-AI](https://github.com/user-attachments/assets/339bc9c8-e897-4263-8223-72a328c5aeea)
+
+
 14. **FUNCTIONAL PROGRAMMING:** prove that you have covered all functional aspects in your code as:
     - only final data structures
     - (mostly) side-effect-free functions
