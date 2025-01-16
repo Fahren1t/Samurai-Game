@@ -323,5 +323,76 @@ I also had to remove some magic numbers. This increased the amount of variable a
     - use closures / anonymous functions
     - You can also do it outside of your project. Even in other languages such as F#, Clojure, Julia, etc.
       
+**SOLUTION:** 
 
-    
+I chose to do it with a functional programming language F#. Therefore it is outside my project. Here is how the code looks like:
+
+      // These are final data structures, these values are not changable, unless there is a "mutable" key word
+      let numbers = [1; 2; 3; 4;453;85;9786753;354;768;645;7876;321435;6564321]
+
+      let isEven = 
+          fun x -> x % 2 = 0 //these are side effect free functions.
+      
+      let doubleIt =
+          fun x -> x * 2 //these are side effect free functions.
+      
+      
+      // Higher order functions usualls look something like this. This function uses other functions such as filter and map, one which filters numbers according to a condition and one which creates a new list
+      // with these new filtered numbers, which we can insert a function that takes the double of these even numbers. 
+      
+      let evenNumbersInNumbers = List.filter isEven numbers 
+      let doubledEvenNumbers = List.map doubleIt evenNumbersInNumbers 
+      
+      //this is an example of returning a function
+      let applyTwice f x = f (f x)
+      let triple x = x * 3
+      
+      let doubledEvenNumbersTripledTwice = 
+          doubledEvenNumbers |> List.map (applyTwice triple) //and here we assign a value to y and return it as a value. basicly returning a function.
+      
+      
+      // Closures generaly look like this. in this example counter is used to increase the value of func, and it is remembered, therefore the next func is increased because counter is increased everytime
+      //the function is called. I hope it is clear.
+      let counter  x =
+          let mutable count = 1
+          fun () ->
+              count <- count + 1 
+              let func = x + count
+              printfn "the value is: %i" func
+              func
+      
+      // Print Results
+      printfn "original numbers: %A" numbers
+      printfn "even numbers: %A" evenNumbersInNumbers
+      
+      printfn "doubled numbers: %A" doubledEvenNumbers
+      printfn "2 times tripled numbers: %A" doubledEvenNumbersTripledTwice
+      
+      let myCounter = counter 10 //here we set counter as 10 (x is set to 10 basicly)
+      
+      // test closure
+      let myResult1 = myCounter () //counter + 1
+      let myResult2 = myCounter () //counter + 2
+      let myResult3 = myCounter () //counter + 3
+
+.
+
+Here is how it looks in the IDE:
+
+![image](https://github.com/user-attachments/assets/f2b96b65-975f-425f-968a-77d77bf349ac)
+
+In this example, a list is made (final data structures). 
+
+![image](https://github.com/user-attachments/assets/01ab1575-819a-415a-aeeb-cb658954ea12)
+
+And firstly with this list a new list is created, with the even numbers in the main list (higher order functions are used). Afterwards this new even lists elemens are doubled with an other function (also with a higher order function). 
+
+![image](https://github.com/user-attachments/assets/6ac496ee-4d83-4e19-a955-96e03dcbb3df)
+
+After that with tripple and applyTwice funtion. the new doubled even list tripled 2 times, because one of the functions used here applies the given function twice. So the list elements are multiplied with 3, 2 times.
+
+![image](https://github.com/user-attachments/assets/fe14e738-b5f3-4d18-830e-9876489e1e67)
+
+And for the last one, counter function uses a mutable(changeble) variable, and this variable is remembered by the funtion inside of this function. everytime the superiour function is called, count increases, and it is used by the inner function in order to increase the return value func. Everytime the function is called it gives an other value.
+
+![image](https://github.com/user-attachments/assets/2afc5e8d-3616-49a8-904e-b90389705755)
