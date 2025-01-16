@@ -314,7 +314,27 @@ I also had to remove some magic numbers. This increased the amount of variable a
 
 
 13. **AI Coding**: Set Up an AI-coding environment on your computer like ZED, Aider, etc. Show your steps and personal experiences! ([ref](https://newsletter.pragmaticengineer.com/p/ide-that-software-engineers-love))
-    
+   
+**SOLUTION:** I have decided to use github copilot AI. It gives 2000 lines of code suggestions and 50 chat messages per month in its free version. It is not much but it was the easiest to set up in vs2022. Here are my experiences with the CoPilot
+
+![image](https://github.com/user-attachments/assets/f797c467-f878-46f6-a2e1-fb3ed4c8a613)
+
+Firstly I asked it to give me an analisis of the code. It gave me few suggestions which were made sense because at this point the update function was getting hard to process. It always looked complicated to me even though I looked at it million times. 
+
+![image](https://github.com/user-attachments/assets/d0dc07a3-b249-4792-b95a-c20d788d02d8)
+
+It said that in order to simplify the update function, the code could be written this way. Which I agree. I really would like to explore more because it is quite usefull. I will definitively use it when I continue my project. 
+
+.
+
+Final Code:
+
+![image](https://github.com/user-attachments/assets/dcd9b892-bcbf-47b1-9efd-e364a5f4b2c2)
+
+Has a little window I can use to chat or ask for instructions:
+
+![image](https://github.com/user-attachments/assets/88c5003d-5afb-4512-befd-f7c84fc3ae51)
+
 14. **FUNCTIONAL PROGRAMMING:** prove that you have covered all functional aspects in your code as:
     - only final data structures
     - (mostly) side-effect-free functions
