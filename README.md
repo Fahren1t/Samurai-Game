@@ -303,7 +303,30 @@ I also had to remove some magic numbers. This increased the amount of variable a
    
    ![image](https://github.com/user-attachments/assets/4626d7bc-110e-4f2a-bb7c-c7ceeef45560)
 
-    
+.
+
+This one checks if the damage function in the Health class actually reduces the health. It should reduce the health by 1 in this case. Damage funtion reduces the health by amount. 
+
+![image](https://github.com/user-attachments/assets/9608b845-e32a-4848-888a-5cea6fd74818)
+
+
+
+![image](https://github.com/user-attachments/assets/f8acbbdb-780a-4555-a775-3ef19ae22564)
+
+Is seems that it does!
+
+.
+
+And finally the last one in this document is:
+
+![image](https://github.com/user-attachments/assets/5698aa1a-d68f-4880-9534-0c9878bf6de8)
+
+Checks if the destory function deletes the object it is attached to. Health is set to 1. and damage function is called. If health is 0, the object should be deleted.
+
+![test-runner-test-runs](https://github.com/user-attachments/assets/05212130-5cc6-4807-9874-e631461325ca)
+
+looks like it works!
+
 12. Use a good **IDE** and get fluent with it: e.g. VSCode, IntelliJ. What are your favourite key shortcuts?!
 
    SOLUTIONS: I prefer visual studio 2022, and here are my favorite shortcuts:
