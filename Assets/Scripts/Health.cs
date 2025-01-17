@@ -1,33 +1,38 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour
+namespace Game.Scripts
 {
-    [SerializeField] private int health = 1;
-
-    //[SerializeField] private ParticleSystem damageParticles;
-    
-    public void Damage(int amount)
+    public class Health : MonoBehaviour
     {
-        if (health != 0)
-        {
-            this.health -= amount;
+        [SerializeField] public int health = 1; // Assuming a default health value
 
-            //Instantiate(damageParticles, transform.position, Quaternion.identity);
-        }
-        if (health <= 0)
+        //damage the object carrying this or child scripts 
+        public void Damage(int amount)
         {
-            Die();
+            if (!health.Equals(0))
+            {
+                health -= amount;
+
+                //Instantiate(damageParticles, transform.position, Quaternion.identity);
+            }
+            if (health <= 0)
+            {
+                Die();
+            }
+        }
+
+        //destroy the objects carrying this or child scripts
+        private void Die()
+        {
+            #if UNITY_EDITOR
+            Object.DestroyImmediate(gameObject);
+            #else
+            Object.Destroy(gameObject);
+            #endif
+
+            Debug.Log("I am Dead!");
         }
     }
-   private void Die()
-    {
-        Debug.Log("I am Dead!");
-        Destroy(this.gameObject); 
-
-    }
-
 }
 //public class HealthTests
 //{
