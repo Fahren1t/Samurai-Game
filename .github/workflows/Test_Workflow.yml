@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - path-to-your-unity-project # Update this to the correct project path.
+          - Samurai-Game # Update this to the correct project path.
         testMode:
           - playmode
           - editmode
