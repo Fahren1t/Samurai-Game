@@ -13,7 +13,7 @@ jobs:
           - playmode
           - editmode
         unityVersion:
-          - 2022.3.16f1  # Replace this with your actual Unity version
+          - 6000.0.23f1  # Replace this with your actual Unity version
     
     steps:
       - uses: actions/checkout@v4
