@@ -1,4 +1,4 @@
-name: Test project
+name: Test package
 
 on: workflow_dispatch
 
@@ -11,18 +11,14 @@ jobs:
       matrix:
         projectPath:
           - Samurai-Game
+        unityVersion: '6000.0.23f1' # some version must be included for package testing
         testMode:
-          - editmode       
+          - playmode
+          - editmode
     steps:
       - uses: actions/checkout@v4
         with:
           lfs: true
-      - uses: actions/cache@v3
-        with:
-          path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}
-          restore-keys: |
-            Library-
       - uses: game-ci/unity-test-runner@v4
         id: tests
         env:
@@ -30,7 +26,9 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
+          packageMode: true
           projectPath: ${{ matrix.projectPath }}
+          unityVersion: ${{ matrix.unityVersion }}
           testMode: ${{ matrix.testMode }}
           artifactsPath: ${{ matrix.testMode }}-artifacts
           checkName: ${{ matrix.testMode }} Test Results
