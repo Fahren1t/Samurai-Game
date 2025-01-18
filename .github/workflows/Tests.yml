@@ -11,7 +11,7 @@ jobs:
       matrix:
         projectPath:
           - Samurai-Game
-        unityVersion: '2020.3.0f1' # some version must be included for package testing
+        unityVersion: ['6000.0.23f1'] # some version must be included for package testing
         testMode:
           - playmode
           - editmode
