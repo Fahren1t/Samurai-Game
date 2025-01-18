@@ -286,7 +286,19 @@ I also had to remove some magic numbers. This increased the amount of variable a
    .
 
 9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
-    
+
+   **SOLUTIONS:**
+
+   This one is a built in build management tool in Unity. In game development, as far as I know, the engines own build methods are used, since game projects are made alongside with engines.
+
+   ![image](https://github.com/user-attachments/assets/0fedeed0-48ce-484c-8cc0-799317949299)
+
+   It is as easy as it seems. you just press the button and it automaticly makes a demo for your game. Though sometimes special adjustments has to be made. That is when things get a little complicated
+
+   ![image](https://github.com/user-attachments/assets/a1d06cc2-596c-4a10-8b32-6dee5979e5f8)
+
+   Builds can be found on **Builds/**
+       
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 
    **SOLUTIONS:**
