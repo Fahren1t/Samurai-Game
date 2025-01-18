@@ -310,7 +310,18 @@ I also had to remove some magic numbers. This increased the amount of variable a
 
    Automated builds can be found on Actions page!
 
+   This next one is for automated unit tests. This one was also painfull to set up but I made it non the less. Here is the results:
    
+   ![image](https://github.com/user-attachments/assets/1cc90d0f-0dc3-4624-b0d2-b13de042c626)
+
+   Here is the code:
+
+   ![image](https://github.com/user-attachments/assets/a2eed4a4-b3ce-4cb9-8606-f3c430707d8d)
+   
+   you can find more about them on the Actions page.
+   
+.
+
 11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
 
    In Unity, unit tests work a little different. The unity engine has its own test runner which is really easy to use and understand. I haven't looked at how to intergrate tests to build, but I don't think it is necesary.
