@@ -288,7 +288,29 @@ I also had to remove some magic numbers. This increased the amount of variable a
 9. **BUILD** Management with any Build System as Ant, Maven, Gradle, etc. (only Travis is perhaps not enough) Do e.g. generate Docs, call tests, etc. (it could also be disconnected from the project just to learn a build tool!) => to be merged with 7!
     
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
-    
+
+   **SOLUTIONS:**
+   finally after some long error fixing, I was able to add a github action. This next pretty basic. it just writes a simple hello Game to the console:
+
+   ![image](https://github.com/user-attachments/assets/de330bbb-0503-4574-8b73-702e0f03b6d9)
+
+   This second one really hard to adapt. I had to fix some errors my engine was giving. This was a previously written yml by other game developers. Apperantly there is a website for game developers to help them apply CI. it is https://game.ci .
+   As far as my understanding, it is very widely used by game developers. Unfortunately I was not able to make it for automated tests. I could not fix the errors it was giving, it was very frustrating. Therefore I will leave it as be for now.
+
+   I decided to take one code for automated build pipelining. 
+
+   ![image](https://github.com/user-attachments/assets/00c657dd-b6a1-43e0-955e-73e8f70c17ea)
+
+   this is the code. I had to change a little bit in order to work. Finally I made it.
+   ![image](https://github.com/user-attachments/assets/b6b911f7-88d0-46f0-b5dc-8fd304be6db8)
+   
+   PS: I changed the code afterwards. Adding **on: workflow_dispatch** is was previously **on: push** because I don't want it to build everytime i push a code.
+
+   ![image](https://github.com/user-attachments/assets/a6b213f5-bc16-4c54-8cb3-9b5d53fc6b0c)
+
+   Automated builds can be found on Actions page!
+
+   
 11. Integrate some nice **UNIT TESTS** in your Code to be integrated into the Build!
 
    In Unity, unit tests work a little different. The unity engine has its own test runner which is really easy to use and understand. I haven't looked at how to intergrate tests to build, but I don't think it is necesary.
