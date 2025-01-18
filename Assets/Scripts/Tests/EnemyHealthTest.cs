@@ -1,9 +1,6 @@
-using System.Collections;
 using Game.EnemyScripts;
 using NUnit.Framework;
 using UnityEngine;
-using UnityEngine.TestTools;
-using NSubstitute;
 using Game.Scripts;
 
 public class EnemyHealthTest

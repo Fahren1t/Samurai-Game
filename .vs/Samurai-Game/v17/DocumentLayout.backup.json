@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A2A834E-C381-CA48-4361-987095FCF5C1}|EditModeTests.csproj|c:\\users\\kemal\\desktop\\samurai\\samurai-game\\assets\\scripts\\editmodetests\\enemyhealthtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A2A834E-C381-CA48-4361-987095FCF5C1}|EditModeTests.csproj|solutionrelative:assets\\scripts\\editmodetests\\enemyhealthtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E92DB6F5-9955-4ED7-9132-E0DD8F20AB99}|Tests.csproj|C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\Assets\\Scripts\\Tests\\EnemyHealthTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E92DB6F5-9955-4ED7-9132-E0DD8F20AB99}|Tests.csproj|solutionrelative:Assets\\Scripts\\Tests\\EnemyHealthTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3E6357A0-346E-69B1-143D-8DDC619372B3}|MainAssembly.csproj|C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\assets\\scripts\\enemyscripts\\enemyshoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +62,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyHealthTest.cs",
               "DocumentMoniker": "C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs",
               "ToolTip": "C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs",
               "RelativeToolTip": "Assets\\Scripts\\EditModeTests\\EnemyHealthTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T16:35:40.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T16:35:40.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EnemyHealthTest.cs",
               "DocumentMoniker": "C:\\Users\\kemal\\Desktop\\samurai\\Samurai-Game\\Assets\\Scripts\\Tests\\EnemyHealthTest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Tests\\EnemyHealthTest.cs",
@@ -83,7 +81,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Tests\\EnemyHealthTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T19:47:40.633Z"
+              "WhenOpened": "2025-01-16T19:47:40.633Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
