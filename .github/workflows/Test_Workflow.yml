@@ -10,21 +10,23 @@ jobs:
       fail-fast: false
       matrix:
         projectPath:
-          - test-project
+          - path-to-your-unity-project # Update this to the correct project path.
         testMode:
           - playmode
           - editmode
           - standalone
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
         with:
           lfs: true
+
       - uses: actions/cache@v3
         with:
           path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}
+          key: Library-${{ hashFiles('**/*.cs') }}-${{ matrix.projectPath }}
           restore-keys: |
             Library-
+
       - uses: game-ci/unity-test-runner@v4
         id: tests
         env:
@@ -38,13 +40,15 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           checkName: ${{ matrix.testMode }} Test Results
           coverageOptions: 'generateAdditionalMetrics;generateHtmlReport;generateBadgeReport;assemblyFilters:+my.assembly.*'
+
       - uses: actions/upload-artifact@v3
         if: always()
         with:
           name: Test results for ${{ matrix.testMode }}
-          path: ${{ steps.tests.outputs.artifactsPath }}
+          path: ${{ matrix.testMode }}-artifacts
+
       - uses: actions/upload-artifact@v3
         if: always()
         with:
           name: Coverage results for ${{ matrix.testMode }}
-          path: ${{ steps.tests.outputs.coveragePath }}
+          path: ${{ matrix.testMode }}-coverage
