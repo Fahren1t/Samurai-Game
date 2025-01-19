@@ -289,7 +289,7 @@ I also had to remove some magic numbers. This increased the amount of variable a
 
    **SOLUTIONS:**
 
-   This one is a built in build management tool in Unity. In game development, as far as I know, the engines own build methods are used, since game projects are made alongside with engines.
+   1. This one is a built in build management tool in Unity. In game development, as far as I know, the engines own build methods are used, since game projects are made alongside with engines.
 
    ![image](https://github.com/user-attachments/assets/0fedeed0-48ce-484c-8cc0-799317949299)
 
@@ -298,7 +298,40 @@ I also had to remove some magic numbers. This increased the amount of variable a
    ![image](https://github.com/user-attachments/assets/a1d06cc2-596c-4a10-8b32-6dee5979e5f8)
 
    Builds can be found on **Builds/**
-       
+
+.
+
+   2. I will also be using the build tool *gradle* **outside of my project**. I am not very familier with java, therefore the codes I will be writing will be super easy (printfn etc.). 
+   
+   ![gradle-project-making](https://github.com/user-attachments/assets/6796e25b-d20c-4c4e-8f70-5c865e0e2566)
+
+   This is the code!
+   ![image](https://github.com/user-attachments/assets/8b460f08-e790-4544-b7fe-724a37508840)
+
+   Here is how I did the set up:
+
+   ![image](https://github.com/user-attachments/assets/ccdfc888-352f-46ed-8e21-cc82dccc5c03)
+   
+   This is the java plugin.
+
+   Here I run the build task and it succesfully creates a build.
+   
+   ![building-with-gradle-2](https://github.com/user-attachments/assets/f972e175-bc56-456c-86d3-0decad61ba8b)
+
+   Here I run .jar file that created automaticly with build. I added a tasks.jar in the build.gradle in order for code to work, otherwise it failed:
+   
+   ![java-jar-working](https://github.com/user-attachments/assets/c932b356-0b08-46ba-b5a8-1b89118ba8c5)
+
+   I also run a simple test:
+   
+   ![image](https://github.com/user-attachments/assets/83dbd06a-b5dc-4f6b-89e5-9be6bb6e42aa)
+
+   I had to add some lines of code in order tests to work. I had to define the test library I think. I thing result was pretty satisfying. I am really not good with java. So I got help from a really good tutorial to learn how to use gradle tools. They are really     similar to github actions and unity unit tests. With this, now I know how to build java projects and implement unit tests.
+   
+   ![run-test-gradle](https://github.com/user-attachments/assets/2ed4283d-8749-4fd8-b19f-2b7c0128745a)
+
+
+   
 10. **CONTINOUS DELIVERY:** show me your pipeline using e.g. **Jenkins**, **GitHub Actions**, GitLab CI, etc. E.g. you can also use Jenkins Pipelining or BlueOcean, etc. But at least insert more than 2 script calls as done in the lecture! (e.g. also call Ant or Gradle or something else).
 
    **SOLUTIONS:**
