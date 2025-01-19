@@ -326,7 +326,7 @@ I also had to remove some magic numbers. This increased the amount of variable a
    
    ![image](https://github.com/user-attachments/assets/83dbd06a-b5dc-4f6b-89e5-9be6bb6e42aa)
 
-   I had to add some lines of code in order tests to work. I had to define the test library I think. I thing result was pretty satisfying. I am really not good with java. So I got help from a really good tutorial to learn how to use gradle tools. They are really     similar to github actions and unity unit tests. With this, now I know how to build java projects and implement unit tests.
+   I had to add some lines of code in order tests to work. I had to define the test library I think. I thing result was pretty satisfying. I am really not good with java. So I got help from a really good tutorial to learn how to use gradle tools. They are really     similar to github actions and unity unit tests. With this, now I know how to build java projects and implement unit tests. https://github.com/Fahren1t/GradleProjetct here is the whole project.
    
    ![run-test-gradle](https://github.com/user-attachments/assets/2ed4283d-8749-4fd8-b19f-2b7c0128745a)
 
