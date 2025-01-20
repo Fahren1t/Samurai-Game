@@ -151,19 +151,19 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
 **SOLUTION:**
    
-   *Our goal:*
+   *1. Our goal:*
    
    Our goal is to create a very simple mobile game and gain experience in the field, money and knowledge. So that we can make new games and gain more profits. Since we know we are just in the beginning of this journey, we desire to keep the game as simple as possible, and add it to the market.   
 
    .
     
-   *Market Analysis*
+   *2. Market Analysis*
    
    The Market is the mobile game industry. We saw that the mobile game industy lacks simple yet fun games. Most of the games are full of ads, crap gameplay and lack creativenes. Those games which are not full of ads and has some quality, are pay to win games(games that are become easier to play when you make micropayments). We intend to free our game from this aspects and make the game as satifying as possible to play, and as ad free as possible to keep the player in the game.
 
    .
 
-   *Business process Analysis* (LLM: what could be the relevant contacts, end customers, departments, and political infuences for my game project?)
+   *3. Business process Analysis* (LLM: what could be the relevant contacts, end customers, departments, and political infuences for my game project?)
    
    Relevant customers:
    First most important relevant contacts of this project is definitively other game developers and designers. I got help from numerious tutorials in youtube from tons of other game developers. I even gave my e-mail to an other game developer so that he can send me a very usefull cheatsheet for Unity. Second most important relevant contact is probably going to be influencer. We will definitively contact some game influencers to market our game. Asfor the technical contacts, we will get in touch with mobile app stores.
@@ -176,7 +176,7 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
    .
 
-   *Glossary:*
+   *4. Glossary:*
    
    I saw a person on linkedin that was showing a page from a cheatsheet for Unity. Here is a page from that cheatsheet:
    
@@ -184,7 +184,7 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
    Other than that there is a glossary for Unity: https://docs.unity3d.com/Manual/Glossary.html
 
-   *Proccess Modeling* (LLM: what does specify dynamic parts of the system, and detailed activities could mean?)
+   *5. Proccess Modeling:* (LLM: what does specify dynamic parts of the system, and detailed activities could mean?)
 
    In our game project, since we are new to game development, we need to keep every part dynamic so that when we want to add a new feature, it should be easier to do that. Since the project is very simple, we can add more ideas to the project. Here are some of the dynamic dynamic parts:  
    *Player Character: Movement, health, inventory, and interactions.(LLM)
@@ -199,6 +199,18 @@ Provide the prompts in brackets that have helped you to improve or structure som
       *Add unit tests to the code to make sure it is methods are working properly
       *Define how the object interract with each other
       *Define the behaviour of objects
+   
+   *6. GUI Prototype:*(LLM: what is a GUI prototype in an Analysis of a game project)
+
+   The UI: every sub menu should be on the main menu. So that it is easy to understand. Aseprite will be used for visual design.
+      *Main Menu: Start, Settings, Scoreboard, Shop.
+      *after the game starts, there should e=be a HUD (Heads-Up Display): Health bars,special ability bar, score.(LLM)
+      *Settings Menu: Sliders, toggles, or dropdowns for audio, graphics, and controls.(LLM)
+      *After the game ends, there should be a pop up screen to access the sub menus.
+      *2 button iteractions after the game starts: defense, atack.
+      *Slide down menu for settings
+      *The player should be visible in the main menu, after pressing the start menu, menu buttons should dissappear and player should start moving
+      *Transitions and animations (e.g., sliding panels, fading menus).(LLM)
       
 5. A) **DDD**: **(A)** Do an Event-Storming to find your Domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) **(B)**. Drop your Domains into a Core Domain Chart **(C)** and indicate the Relations = Mappings (! see MIRO examples again) between the Domains in a new diagram!
 
