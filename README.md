@@ -166,15 +166,12 @@ Provide the prompts in brackets that have helped you to improve or structure som
    *Business process Analysis* (LLM: what could be the relevant contacts, end customers, departments, and political infuences for my game project?)
    
    Relevant customers:
-   
    First most important relevant contacts of this project is definitively other game developers and designers. I got help from numerious tutorials in youtube from tons of other game developers. I even gave my e-mail to an other game developer so that he can send me a very usefull cheatsheet for Unity. Second most important relevant contact is probably going to be influencer. We will definitively contact some game influencers to market our game. Asfor the technical contacts, we will get in touch with mobile app stores.
 
    End Customers:
-   
    Players where they want to play a simple yet satisfying game. people who seek fun and easy to pick up games.
 
    Departments: 
-   
    We have a developer team and an Art and animation team.
 
    .
@@ -187,6 +184,22 @@ Provide the prompts in brackets that have helped you to improve or structure som
 
    Other than that there is a glossary for Unity: https://docs.unity3d.com/Manual/Glossary.html
 
+   *Proccess Modeling* (LLM: what does specify dynamic parts of the system, and detailed activities could mean?)
+
+   In our game project, since we are new to game development, we need to keep every part dynamic so that when we want to add a new feature, it should be easier to do that. Since the project is very simple, we can add more ideas to the project. Here are some of the dynamic dynamic parts:  
+   *Player Character: Movement, health, inventory, and interactions.(LLM)
+   *AI Enemies: Pathfinding, attacking behavior, and adapting to the player's actions.(LLM)
+   *Physics System: Collisions, gravity, and dynamic object behavior (e.g., destructible environments).(LLM)
+   *Dynamic Lighting: Changes in light intensity or color based on time or events.(LLM)
+   *Game State: Transitions between menus, levels, or game-over screens.(LLM)
+
+   Our activities are: 
+      *Write scripts or algorithms for dynamic systems(LLM)
+      *Integrate animations with user input or AI behavior(LLM)
+      *Add unit tests to the code to make sure it is methods are working properly
+      *Define how the object interract with each other
+      *Define the behaviour of objects
+      
 5. A) **DDD**: **(A)** Do an Event-Storming to find your Domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) **(B)**. Drop your Domains into a Core Domain Chart **(C)** and indicate the Relations = Mappings (! see MIRO examples again) between the Domains in a new diagram!
 
    SOLUTION:
