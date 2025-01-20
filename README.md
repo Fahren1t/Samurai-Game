@@ -149,6 +149,44 @@ https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_
 4. **ANALYSIS**: **A)** Think about your checklist (on an extra A4 page) from all the points of the ‘ANA - Analysis’ learning unit, with the points that you consider relevant for your project (e.g. 10-15 instead of 30 on the overall picture) **B)** Carry out an analysis of your semester project / your favourite project. Or have a start-up idea and would like to hand in the start-up analysis as part of a large documentary! There should be at least 2 pages. Take the 10-15 points from the checklist (with e.g. 1-2 paragraphs per point). Assume that you will soon have a fishing rod for the start-up chapter. If you are successful, you would receive a lot of ‘money’ in order to be allowed to design and implement it later. So get your start-up off to a successful start!The use of large language models is explicitly encouraged here! However, don't try to solve everything with one prompt and then submit 10 pages: get specific help!
 Provide the prompts in brackets that have helped you to improve or structure something here! Please find the sweet spot between your own work/testing and content generation in order to learn something yourself throughout the entire process!
 
+**SOLUTION:**
+   
+   *Our goal:*
+   
+   Our goal is to create a very simple mobile game and gain experience in the field, money and knowledge. So that we can make new games and gain more profits. Since we know we are just in the beginning of this journey, we desire to keep the game as simple as possible, and add it to the market.   
+
+   .
+    
+   *Market Analysis*
+   
+   The Market is the mobile game industry. We saw that the mobile game industy lacks simple yet fun games. Most of the games are full of ads, crap gameplay and lack creativenes. Those games which are not full of ads and has some quality, are pay to win games(games that are become easier to play when you make micropayments). We intend to free our game from this aspects and make the game as satifying as possible to play, and as ad free as possible to keep the player in the game.
+
+   .
+
+   *Business process Analysis* (LLM: what could be the relevant contacts, end customers, departments, and political infuences for my game project?)
+   
+   Relevant customers:
+   
+   First most important relevant contacts of this project is definitively other game developers and designers. I got help from numerious tutorials in youtube from tons of other game developers. I even gave my e-mail to an other game developer so that he can send me a very usefull cheatsheet for Unity. Second most important relevant contact is probably going to be influencer. We will definitively contact some game influencers to market our game. Asfor the technical contacts, we will get in touch with mobile app stores.
+
+   End Customers:
+   
+   Players where they want to play a simple yet satisfying game. people who seek fun and easy to pick up games.
+
+   Departments: 
+   
+   We have a developer team and an Art and animation team.
+
+   .
+
+   *Glossary:*
+   
+   I saw a person on linkedin that was showing a page from a cheatsheet for Unity. Here is a page from that cheatsheet:
+   
+   ![image](https://github.com/user-attachments/assets/9a817c8c-8d30-436d-90c2-d9dedb939cb4)
+
+   Other than that there is a glossary for Unity: https://docs.unity3d.com/Manual/Glossary.html
+
 5. A) **DDD**: **(A)** Do an Event-Storming to find your Domains! If your domain is too small, invent other domains around and document these domains (as if you have 100 Mio € from Edlich-Investment!) **(B)**. Drop your Domains into a Core Domain Chart **(C)** and indicate the Relations = Mappings (! see MIRO examples again) between the Domains in a new diagram!
 
    SOLUTION:
