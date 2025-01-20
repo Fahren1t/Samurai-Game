@@ -150,7 +150,10 @@ https://lucid.app/lucidchart/4ed20f63-7c15-485b-8b92-a2468c48d67f/edit?viewport_
 Provide the prompts in brackets that have helped you to improve or structure something here! Please find the sweet spot between your own work/testing and content generation in order to learn something yourself throughout the entire process!
 
 **SOLUTION:**
+   Here is my checklist:
    
+   ![checklist](https://github.com/user-attachments/assets/fb2c2f97-2958-4952-bd03-522010527019)
+
    *1. Our goal:*
    
    Our goal is to create a very simple mobile game and gain experience in the field, money and knowledge. So that we can make new games and gain more profits. Since we know we are just in the beginning of this journey, we desire to keep the game as simple as possible, and add it to the market.   
